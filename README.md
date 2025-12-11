@@ -1,5 +1,5 @@
 # linux_tricks
-## Borrado y recuperación de /etc/shadow
+## Borrado y recuperación de /etc/shadow en Ubuntu 24.04
 
 Supongamos que borramos el fichero `/etc/shadow` en **Ubuntu 24.04** lo que ocurrirá a continuación es que cualquier comando que deseemos ejecutar como superusuario con `sudo` no podrá verificar la clave al no poder verificar la concordancia con el hash de la clave que está en `/etc/shadow`. 
 La solución podría ser la siguiente:
