@@ -13,3 +13,4 @@ passwd administrador
 passwd usuario
 ...
 ```
+6. Ahora podremos volver a loguearnos sin problema en el sistema.
