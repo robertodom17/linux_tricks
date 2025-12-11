@@ -5,4 +5,4 @@ Supongamos que borramos el fichero /etc/shadow en Ubuntu 24.04 lo que ocurrirá 
 La solución podría ser la siguiente:
 1.- Reiniciamos Ubuntu y para sacar el menú de arranque de grub pulsamos la tecla SHIFT al reiniciar.
 2.- Elegimos el modo de arranque RECOVERY y dentro de el elegimos el modo ROOT SHELL, Con ello conseguimos entrar como administrador.
-3.- Ahora montamos el sistema de ficheros con 'mount -o remount,rw'
+3.- Ahora montamos el sistema de ficheros con `mount -o remount,rw`
